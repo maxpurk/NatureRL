@@ -54,7 +54,7 @@ import subprocess
 
 # env = gym.make(environment_name, render_mode = None)
 # env.reset()
-# model = A2C.load("/Users/max/dev/NatureRL/Breakout/Training/Saved Models/A2C_Breakout_Models.zip", env)
+# model = A2C.load("Training/Saved Models/A2C_Breakout_Models.zip", env)
 
 # # #Evalute and Test
 
@@ -62,7 +62,7 @@ import subprocess
 
 # print(results)
 
-#Tensorboard Command: tensorboard --logdir=/Users/max/dev/NatureRL/Training/Logs/PPO_1
+#Tensorboard Command: tensorboard --logdir=Training/Logs/PPO_1
 
 ################################################################################################
 #Test the model
@@ -117,7 +117,7 @@ import subprocess
 
 # print(results)
 
-#Tensorboard Command: tensorboard --logdir=/Users/max/dev/NatureRL/Training/Logs/PPO_1
+#Tensorboard Command: tensorboard --logdir=NatureRL/Training/Logs/PPO_1
 
 ################################################################################################
 #Test the model

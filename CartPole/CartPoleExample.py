@@ -69,7 +69,7 @@ env = DummyVecEnv([lambda: env])
 ################################################################################################
 # 6. Viewing Logs in Tensorboard
 
-#Tensorboard Command: tensorboard --logdir=/Users/max/dev/NatureRL/Training/Logs/PPO_1
+#Tensorboard Command: tensorboard --logdir=NatureRL/Training/Logs/PPO_1
 
 ################################################################################################
 
