@@ -5,7 +5,6 @@ from stable_baselines3.common.evaluation import evaluate_policy
 import gymnasium as gym
 import numpy as np
 
-
 #Create the environment
 # environment_name = "CarRacing-v2"
 # env = gym.make(environment_name, render_mode = None) # human
@@ -43,9 +42,8 @@ import numpy as np
 
 environment_name = "CarRacing-v2"
 env = gym.make(environment_name, render_mode='human')
-
 #Load the trained model
-model_path = "/Users/max/dev/NatureRL/CarRacing/Training/Saved Models/PPO_Driving_model.zip"
+model_path = "Training/Saved Models/PPO_Driving_model.zip"
 model = PPO.load(model_path, env=env)
 
 # Number of episodes to run
