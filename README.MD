@@ -5,21 +5,6 @@ NatureRL is a collection of reinforcement learning projects, showcasing hands-on
 
 Each sub-directory contains training scripts, saved models, and log data for different reinforcement learning algorithms and approaches.
 
-## Project Structure
-
-NatureRL/
-├── .git/ # Git repository management folder
-├── Breakout/ # Breakout game experiments
-│ ├── Roms/ # Game ROMs for Breakout
-│ └── Training/ # Training scripts and logs for Breakout
-├── CarRacing/ # CarRacing game experiments
-│ └── Training/ # Training scripts and logs for CarRacing
-├── CartPole/ # CartPole game experiments
-│ └── Training/ # Training scripts and logs for CartPole
-├── CustomProject/ # Custom experiments and implementations
-│ └── Training/ # Training scripts and logs for CustomProject
-└── README.md # This README file
-
 
 ## Environments and Algorithms
 
